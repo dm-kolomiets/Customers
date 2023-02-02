@@ -8,6 +8,12 @@ jQuery(function ($) {
         $(this).closest('.section').find('.layer-close').toggleClass('active')
         $(this).toggleClass('active');
         $('html').toggleClass('overflow-menu');
-        $(this).parents('header').toggleClass('open-menu');
+    });
+    
+        $('.layer-close').on('click', function(){
+        $(this).closest('.dashboard').removeClass('active')
+        $(this).closest('.section').find('.layer-close').removeClass('active')
+        $(this).removeClass('active');
+        $('html').removeClass('overflow-menu');
     });
 });
