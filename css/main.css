@@ -298,14 +298,9 @@ input, textarea, select {
 }
 
 .dashboard__inner {
-    /*position: fixed;*/
-    /*left: 0;*/
-    /*top: 0;*/
-    /*z-index: 10;*/
     background-color: var(--clr-white);
     -webkit-box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
     box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
-    /*width: 306px;*/
     height: 100vh;
     padding: 36px;
     display: -webkit-box;
@@ -479,6 +474,7 @@ input, textarea, select {
         right: 0;
         width: 40px;
         height: 40px;
+        margin-top: -20px;
         -webkit-transform: translateX(100%);
         -ms-transform: translateX(100%);
         transform: translateX(100%);
