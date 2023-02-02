@@ -10,7 +10,7 @@ jQuery(function ($) {
         $('html').toggleClass('overflow-menu')
     })
     
-        $('.layer-close').on('click', function(){
+    $('.layer-close').on('click', function(){
         $(this).closest('.section').find('.dashboard').removeClass('active')
         $(this).closest('.section').find('.mobile-button').removeClass('active')
         $(this).removeClass('active')
