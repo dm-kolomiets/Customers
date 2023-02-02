@@ -11,8 +11,7 @@ jQuery(function ($) {
     });
     
         $('.layer-close').on('click', function(){
-        $(this).closest('.dashboard').removeClass('active')
-        $(this).closest('.section').find('.layer-close').removeClass('active')
+        $(this).closest('.section').find('.dashboard').removeClass('active')
         $(this).removeClass('active');
         $('html').removeClass('overflow-menu');
     });
